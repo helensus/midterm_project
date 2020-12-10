@@ -157,11 +157,15 @@ Future analysis could be targeted at the correlation between credit defaulting p
 [1]Douglas Bates, Martin Maechler, Ben Bolker, Steve Walker (2015). Fitting Linear
   Mixed-Effects Models Using lme4. Journal of Statistical Software, 67(1), 1-48.
   doi:10.18637/jss.v067.i01. 
+  
 [2]Gabry J, Simpson D, Vehtari A, Betancourt M, Gelman A (2019). “Visualization in Bayesian
 workflow.” _J. R. Stat. Soc. A_, *182*, 389-402. doi: 10.1111/rssa.12378 (URL:
 https://doi.org/10.1111/rssa.12378). 
-[3]McKeon, C. S., Stier, A., McIlroy, S., & Bolker, B. (2012). Multiple defender effects: Synergistic coral defense by mutualist crustaceans. Oecologia, 169(4), 1095–1103. http://doi.org/10.1007/s00442-012-2275-2 
+
+[3]McKeon, C. S., Stier, A., McIlroy, S., & Bolker, B. (2012). Multiple defender effects: Synergistic coral defense by mutualist crustaceans. Oecologia, 169(4), 1095–1103.http://doi.org/10.1007/s00442-012-2275-2 
+
 [4]Kaggle.Give me some credit.(2011). Retrieved Dec,2020 from https://www.kaggle.com/c/GiveMeSomeCredit/data.  
+
 [5]The EDA process gets inspirations from:Nicolas.Exploratory Data Analysis - Preparing for one of the top performing models.(2020). Retrieved Dec,2020 from https://www.kaggle.com/nicholasgah/eda-credit-scoring-top-100-on-leaderboard.  
 
 # Appendix
@@ -176,6 +180,4 @@ x<-rnorm(3000,52,18)
 ggplot()+geom_histogram(data=tr,aes(x=age,y=..density..),fill="light blue")+geom_density(data=NULL, aes(x=x),col="dark grey")
 
 #ggplot(data=tr)+geom_histogram(aes(x=MonthlyIncome,y=..density..),fill="light blue")
-
-
 ```
